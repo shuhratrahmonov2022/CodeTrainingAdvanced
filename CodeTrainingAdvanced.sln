@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleConsoleCalculatorProject", "01.SimpleConsoleCalculatorProject\01.SimpleConsoleCalculatorProject.csproj", "{9B3FC807-0DE9-499B-8551-21FD3B2D1EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SimpleConsoleCalculatorProject", "01.SimpleConsoleCalculatorProject\01.SimpleConsoleCalculatorProject.csproj", "{9B3FC807-0DE9-499B-8551-21FD3B2D1EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SimplePrintConsoleProject", "02.SimplePrintConsoleProject\02.SimplePrintConsoleProject.csproj", "{13857630-BA4D-4779-A01D-7390EF237B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B3FC807-0DE9-499B-8551-21FD3B2D1EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3FC807-0DE9-499B-8551-21FD3B2D1EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3FC807-0DE9-499B-8551-21FD3B2D1EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13857630-BA4D-4779-A01D-7390EF237B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13857630-BA4D-4779-A01D-7390EF237B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13857630-BA4D-4779-A01D-7390EF237B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13857630-BA4D-4779-A01D-7390EF237B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
