@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _02.SimplePrintConsoleProject;
+using System;
 
 namespace SimplePrintConsoleProject
 {
@@ -6,7 +7,10 @@ namespace SimplePrintConsoleProject
     {
         static void Main(string[] args)
         {
-
+            
+            MyString class1 = new MyString();
+            class1.StringMethod();
+/*
             decimal a = 0.3m;
             decimal b = 1.1m;
             decimal c = 1.4m;
@@ -52,7 +56,7 @@ namespace SimplePrintConsoleProject
             String userName = Console.ReadLine();
             Console.WriteLine("Hooorey! Now we know your name!");
             Console.WriteLine(userName);
-
+*/
         }
     }
 }
