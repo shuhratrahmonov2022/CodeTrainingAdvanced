@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _01.SimpleConsoleCalculatorProject;
+using System;
 
 namespace CalculatR
 {
@@ -17,6 +18,10 @@ namespace CalculatR
 
             // %
             Console.WriteLine($"Qoldiq {firstNumber % secondNumber}");
+
+            Calculator calculator = new Calculator();
+            calculator.Calc();
+
         }
     }
 }
