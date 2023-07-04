@@ -6,8 +6,8 @@ namespace _02.SimplePrintConsoleProject
     {
         public void MyIntegersNumber()
         {
-            string name = Console.ReadLine();
-            short age = 22;
+             string name = Console.ReadLine();
+             short age = 22;
 
             //interpolated string
             string greeting = $"Hello! {name}";

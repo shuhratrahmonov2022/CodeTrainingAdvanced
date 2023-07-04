@@ -1,4 +1,5 @@
 ﻿using _02.SimplePrintConsoleProject;
+using System;
 
 namespace SimplePrintConsoleProject
 {
@@ -26,10 +27,20 @@ namespace SimplePrintConsoleProject
             //booleanType.MyBooleanType();
 
             //06.CastingVariable
-            CastingVariables castingVariables = new CastingVariables();
-            castingVariables.MyCasting();
-            CastingVariables castingVariables1 = new CastingVariables();
-            castingVariables1.DataReadConsole();
+            //CastingVariables castingVariables = new CastingVariables();
+            //castingVariables.MyCasting();
+            //CastingVariables castingVariables1 = new CastingVariables();
+            //castingVariables1.DataReadConsole();
+
+            //07.Feature
+            //FirstFeature firstFeature = new FirstFeature();
+            //Console.Write("Enter your age: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //firstFeature.Feature(age);
+
+            //08.CharType
+            CharType charType = new CharType();
+            charType.MyChar();
         }
     }
 }
