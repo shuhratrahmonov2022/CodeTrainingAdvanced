@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _02.SimplePrintConsoleProject
 {
@@ -17,6 +13,5 @@ namespace _02.SimplePrintConsoleProject
             string userName = Console.ReadLine();
             Console.WriteLine("Hoorey! We know your name! " + userName);
         }
-
     }
 }
