@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _02.SimplePrintConsoleProject
 {
@@ -15,7 +11,6 @@ namespace _02.SimplePrintConsoleProject
 
             //interpolated string
             string greeting = $"Hello! {name}";
-
             Console.WriteLine($"Your age is  probably {age}");
      
             // short,   int,   long
@@ -44,7 +39,6 @@ namespace _02.SimplePrintConsoleProject
             Console.WriteLine(uint.MaxValue);
             Console.WriteLine(ulong.MinValue);
             Console.WriteLine(ulong.MaxValue);
-
         }
     }
 }
