@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace _02.SimplePrintConsoleProject
 {
@@ -11,8 +12,10 @@ namespace _02.SimplePrintConsoleProject
 
             //interpolated string
             string greeting = $"Hello! {name}";
-            Console.WriteLine($"Your age is  probably {age}");
-     
+            Console.WriteLine($"Your age is  probably {age}"); 
+        }
+        public void MyIntegersNumberSize()
+        {
             // short,   int,   long
             //syntax
             short studentCount = 30;
