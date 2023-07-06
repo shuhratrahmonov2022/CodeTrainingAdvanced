@@ -39,8 +39,14 @@ namespace SimplePrintConsoleProject
             //firstFeature.Feature(age);
 
             //08.CharType
-            CharType charType = new CharType();
-            charType.MyChar();
+            //CharType charType = new CharType();
+            //charType.MyChar();
+
+
+            ArrayClass myClass = new ArrayClass();
+            myClass.MyArrayMethod();
+   
+
         }
     }
 }
