@@ -84,6 +84,14 @@ namespace CalculatR
             {
                 Console.WriteLine(i);
             }
+            for (int iterator = 1; iterator <= 10; iterator++)
+            {
+                for (int inneriterator = 1; inneriterator <= 10; inneriterator++)
+                {
+                    Console.WriteLine($"{iterator} x {inneriterator} = {iterator * inneriterator}");
+                }
+                Console.WriteLine("\n");
+            }
             //// + - / *
             //Console.WriteLine($"Adding {firstNumber + secondNumber}");
             //Console.WriteLine($"Substracting {firstNumber - secondNumber}");
@@ -95,7 +103,17 @@ namespace CalculatR
 
             //Calculator calculator = new Calculator();
             //calculator.Calc();
-
+            int[] numbers = { 1, 2, 3, 4, 5 }; 
+            int sum = 0; 
+            for (int i = 0; i < numbers.Length; i++) 
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    sum += numbers[i];
+                }
+                else break;      
+            } Console.WriteLine(sum); 
+        
         }
     }
 }
