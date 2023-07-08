@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _02.SimplePrintConsoleProject.Classes;
+using System;
 
 namespace _02.SimplePrintConsoleProject
 {
@@ -15,7 +16,10 @@ namespace _02.SimplePrintConsoleProject
             Console.WriteLine("Converting...");
             int age = Convert.ToInt32(ageAsString);
             Console.WriteLine($"Successfully converted! {age}");
-            
+
+            Animal animal = new Animal();
+            animal.Age = 3;
+
             int FriendAge = 13;
             int ageDifference = age - FriendAge;
             Console.WriteLine($"The difference between your Age`s age is {ageDifference}");
