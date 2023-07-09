@@ -1,5 +1,5 @@
-﻿using _02.SimplePrintConsoleProject.Classes;
-using System;
+﻿using System;
+using _02.SimplePrintConsoleProject.Classes;
 
 namespace _02.SimplePrintConsoleProject
 {
@@ -7,31 +7,27 @@ namespace _02.SimplePrintConsoleProject
     {
         public void MyIfMethods()
         {
+            Animal animal = new Animal(name: "kescha", age: 3);
+
             Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            string greeting = $"Hello, {name}";
-            Console.WriteLine(greeting);
-            Console.Write("Enter your age:");
+            string userName = Console.ReadLine();
+            animal.Greet(userName);
+
+            Console.Write("Enter your age: ");
             string ageAsString = Console.ReadLine();
-            Console.WriteLine("Converting...");
-            int age = Convert.ToInt32(ageAsString);
-            Console.WriteLine($"Successfully converted! {age}");
+            Console.WriteLine("Converting... ");
+            int userAge = Convert.ToInt32(ageAsString);
+            Console.WriteLine($"Successfully converted! {userAge}");
 
-            Animal animal = new Animal();
-            animal.Age = 3;
+            animal.CalculateAgeDifferenceWithNoReturn(userAge);
+            animal.PrintAgeDifference();
+            animal.CompareAges(userAge);
 
-            int FriendAge = 13;
-            int ageDifference = age - FriendAge;
-            Console.WriteLine($"The difference between your Age`s age is {ageDifference}");
+            ArrayClass array = new ArrayClass();
+            array.TellAboutFriends(userName, userAge);
 
-            if (age > FriendAge)
-            {
-                Console.WriteLine("You are older!");
-            }
-            else 
-            {
-                Console.WriteLine("Your friend is older!");
-            }
+
+           
         }
     }
-}
+} 

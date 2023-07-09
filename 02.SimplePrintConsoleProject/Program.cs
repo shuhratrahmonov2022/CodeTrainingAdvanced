@@ -42,9 +42,11 @@ namespace SimplePrintConsoleProject
             //CharType charType = new CharType();
             //charType.MyChar();
 
+            ifStatements ifStatements = new ifStatements();
+            ifStatements.MyIfMethods();
 
-            ArrayClass myClass = new ArrayClass();
-            myClass.MyArrayMethod();
+            //ArrayClass myClass = new ArrayClass();
+            //myClass.MyArrayMethod();
    
 
         }
