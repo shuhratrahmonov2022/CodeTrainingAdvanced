@@ -18,9 +18,23 @@ namespace _01.SimpleConsoleCalculatorProject.Classes
             SecondNumber = Convert.ToInt32(Console.ReadLine());
         }
 
+        public void myMethod()
+        {
+            FirstNumber %= 10;
+            Console.WriteLine(FirstNumber);
+        }
+
         public bool IsFirstNumberPositive()
         {
             return FirstNumber >= 0;
+        }
+
+        public void IsPositive()
+        {
+            string message = !(IsFirstNumberPositive())
+                ? "1st number and 2nd are positive!"
+                : "1st number is negativie!";
+            Console.WriteLine(message);
         }
 
         public void CompareInputs()
@@ -31,6 +45,13 @@ namespace _01.SimpleConsoleCalculatorProject.Classes
                 Console.WriteLine("1st number is equal to 2nd number!");
             else
                 Console.WriteLine("1st Number is less than secondNumber");
+
+            // Console.WriteLine($"1st number is grater than 2nd number: {FirstNumber > SecondNumber}");
+            // Console.WriteLine($"1st number is grater than or equal 2nd number: {FirstNumber >= SecondNumber}");
+            // Console.WriteLine($"1nd number is less than 2st number: {FirstNumber < SecondNumber}");
+            // Console.WriteLine($"1nd number is less than or equal 2st number: {FirstNumber <= SecondNumber}");
+            // Console.WriteLine($"Numbers are equal: {FirstNumber == SecondNumber}");
+            // Console.WriteLine($"Numbers are not equal: {FirstNumber != SecondNumber}");
         }
 
         public string PrintCalc()
@@ -73,7 +94,6 @@ namespace _01.SimpleConsoleCalculatorProject.Classes
                     counter += 2;
                 }
             }
-
         }
 
         public void PrintMultiplicationTable()
@@ -90,6 +110,21 @@ namespace _01.SimpleConsoleCalculatorProject.Classes
                 }
                 Console.WriteLine("\n");
             }
+        }
+
+        public void PrintCalcNumber()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int sum = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                {
+                    sum += numbers[i];
+                }
+                else break;
+            }
+            Console.WriteLine(sum);
         }
     }
 }
