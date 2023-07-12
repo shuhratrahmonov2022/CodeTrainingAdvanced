@@ -24,10 +24,7 @@ namespace _02.SimplePrintConsoleProject
             animal.CompareAges(userAge);
 
             ArrayClass array = new ArrayClass();
-            array.TellAboutFriends(userName, userAge);
-
-
-           
+            array.TellAboutFriends(userName, userAge); 
         }
     }
 } 
