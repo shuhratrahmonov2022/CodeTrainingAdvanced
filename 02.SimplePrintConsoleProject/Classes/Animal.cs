@@ -65,7 +65,7 @@ namespace _02.SimplePrintConsoleProject.Classes
             return userAge - animalAge;
         }
 
-        public void Greet(string userName)
+        public virtual void Greet(string userName)
         {
             if (userName == "")
             {
