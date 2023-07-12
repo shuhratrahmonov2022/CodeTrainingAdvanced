@@ -1,4 +1,5 @@
 ﻿using _02.SimplePrintConsoleProject;
+using _02.SimplePrintConsoleProject.Classes;
 using System;
 
 namespace SimplePrintConsoleProject
@@ -42,13 +43,14 @@ namespace SimplePrintConsoleProject
             //CharType charType = new CharType();
             //charType.MyChar();
 
-            ifStatements ifStatements = new ifStatements();
-            ifStatements.MyIfMethods();
+            //ifStatements ifStatements = new ifStatements();
+            //ifStatements.MyIfMethods();
 
             //ArrayClass myClass = new ArrayClass();
             //myClass.MyArrayMethod();
-   
 
+            Animal bird = new Bird(name:"sam",age:3);
+            Animal animal2 = new Animal(name:"kescha", age:2);
         }
     }
 }
