@@ -49,8 +49,13 @@ namespace SimplePrintConsoleProject
             //ArrayClass myClass = new ArrayClass();
             //myClass.MyArrayMethod();
 
+            
             Animal bird = new Bird(name:"sam",age:3);
-            Animal animal2 = new Animal(name:"kescha", age:2);
+            Animal cat = new Pets(name:"kescha", age:2);
+
+          
+            Console.WriteLine(bird.Name);
+            Console.WriteLine(cat.Name);
         }
     }
 }

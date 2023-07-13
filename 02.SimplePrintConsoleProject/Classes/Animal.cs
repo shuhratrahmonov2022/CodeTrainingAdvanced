@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _02.SimplePrintConsoleProject.Classes
 {
-    public class Animal
+    public abstract class Animal
     {
         // field
         private int age;
@@ -73,6 +73,8 @@ namespace _02.SimplePrintConsoleProject.Classes
             }
             Console.WriteLine($"Hello, {userName}");
         }
+
+        public abstract void Greet2(string userName);
 
         private void CalculateAgeDifferenceWithNoReturn(int userAge, int animalAge)
         {
