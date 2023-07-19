@@ -1,6 +1,4 @@
-﻿using _02.SimplePrintConsoleProject;
-using _02.SimplePrintConsoleProject.Classes;
-using System;
+﻿using _02.SimplePrintConsoleProject.Classes;
 
 namespace SimplePrintConsoleProject
 {
