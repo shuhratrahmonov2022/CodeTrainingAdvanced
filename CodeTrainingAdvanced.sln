@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SimplePrintConsoleProjec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SimpleWebApi", "03.SimpleWebApi\03.SimpleWebApi.csproj", "{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SimpleWebApi.Tests.Unit", "04.SimpleWebApi.Tests.Unit\04.SimpleWebApi.Tests.Unit.csproj", "{6FABB973-A764-4C9E-893F-87E979B7A07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SimpleWebApi.Tests.Unit", "04.SimpleWebApi.Tests.Unit\04.SimpleWebApi.Tests.Unit.csproj", "{6FABB973-A764-4C9E-893F-87E979B7A07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SimpleWebApi.Infrastructure.Build", "SimpleWebApi.Infrastructure.Build\05.SimpleWebApi.Infrastructure.Build.csproj", "{A2815B79-177C-41DB-BC12-B03E027DBE49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2815B79-177C-41DB-BC12-B03E027DBE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2815B79-177C-41DB-BC12-B03E027DBE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2815B79-177C-41DB-BC12-B03E027DBE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2815B79-177C-41DB-BC12-B03E027DBE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
