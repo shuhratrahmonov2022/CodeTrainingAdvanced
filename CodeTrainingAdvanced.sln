@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SimpleConsoleCalculatorP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SimplePrintConsoleProject", "02.SimplePrintConsoleProject\02.SimplePrintConsoleProject.csproj", "{13857630-BA4D-4779-A01D-7390EF237B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SimpleWebApi", "03.SimpleWebApi\03.SimpleWebApi.csproj", "{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.SimpleWebApi", "03.SimpleWebApi\03.SimpleWebApi.csproj", "{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SimpleWebApi.Tests.Unit", "04.SimpleWebApi.Tests.Unit\04.SimpleWebApi.Tests.Unit.csproj", "{6FABB973-A764-4C9E-893F-87E979B7A07A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F2DA4A0-36A2-41BA-931C-C6FBAB48B0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FABB973-A764-4C9E-893F-87E979B7A07A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
