@@ -24,10 +24,8 @@ namespace _01.SimpleConsoleCalculatorProject.Classes
             Console.WriteLine(FirstNumber);
         }
 
-        public bool IsFirstNumberPositive()
-        {
-            return FirstNumber >= 0;
-        }
+        public bool IsFirstNumberPositive() =>
+             FirstNumber >= 0;
 
         public void IsPositive()
         {

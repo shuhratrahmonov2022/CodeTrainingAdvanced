@@ -1,5 +1,5 @@
-﻿using _01.SimpleConsoleCalculatorProject.Classes;
-using System;
+﻿using System;
+using _01.SimpleConsoleCalculatorProject.Classes;
 
 namespace CalculatR
 {

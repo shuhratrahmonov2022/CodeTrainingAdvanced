@@ -74,9 +74,8 @@ namespace _02.SimplePrintConsoleProject.Classes
             Console.WriteLine($"Hello, {userName}");
         }
 
-        private void CalculateAgeDifferenceWithNoReturn(int userAge, int animalAge)
-        {
+        private void CalculateAgeDifferenceWithNoReturn(int userAge, int animalAge) =>
             AgeDifference = userAge - animalAge;
-        }
+ 
     }
 }
