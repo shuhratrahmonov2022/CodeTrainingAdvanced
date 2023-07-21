@@ -16,7 +16,7 @@ namespace _02.SimplePrintConsoleProject.Classes
 
         public override void Greet(string userName)
         {
-            Console.WriteLine($"meow, {username}");
+            Console.WriteLine($"meow, {userName}");
         }
     }
 }
